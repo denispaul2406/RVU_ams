@@ -1,7 +1,10 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "private": true,
+  "engines": {
+      "node": "14.x"
+    },
+  "private": "false",
   "dependencies": {
     "@google-cloud/local-auth": "^2.1.0",
     "@testing-library/jest-dom": "^5.16.5",
