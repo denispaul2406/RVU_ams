@@ -65,11 +65,11 @@ function App() {
     }
   };
 
-  const signInWithGoogle = () => {
-    gapi.auth2.getAuthInstance().signIn({
-      scope: "profile email",
-    });
-  };
+  // const signInWithGoogle = () => {
+  //   gapi.auth2.getAuthInstance().signIn({
+  //     scope: "profile email",
+  //   });
+  // };
   const handleLogout = () => {
     gapi.auth2.getAuthInstance().signOut();
     setAttendancePercentages(null);
